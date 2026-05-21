@@ -32,6 +32,7 @@ const options = {
         messageColor: '#fff',
         theme: 'dark',
       });
+      startBtn.disabled = true;
     } else {
       userSelectedDate = selectedDates[0].getTime();
       startBtn.disabled = false;
